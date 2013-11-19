@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="138363" started-at="2013-11-15T10:02:44Z" finished-at="2013-11-15T10:05:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="138363" started-at="2013-11-15T10:02:44Z" finished-at="2013-11-15T10:05:03Z">
+      <class name="module.order.BEIPOOrderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module.order.BEIPOOrderTest@246a641d]" name="setUp" is-config="true" duration-ms="9" started-at="2013-11-15T18:02:44Z" finished-at="2013-11-15T18:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="processAllCustomerSettlement(java.util.Map)[pri:0, instance:module.order.BEIPOOrderTest@246a641d]" name="processAllCustomerSettlement" duration-ms="79478" started-at="2013-11-15T18:03:04Z" data-provider="InputDataProvider" finished-at="2013-11-15T18:04:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{null=null, Environment=BackEnd, ProductType=结构性理财产品, Authority=checker, FundCode=IRC190713A(ZF)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processAllCustomerSettlement -->
+        <test-method status="PASS" signature="approveAggregateOrder(java.util.Map)[pri:0, instance:module.order.BEIPOOrderTest@246a641d]" name="approveAggregateOrder" duration-ms="31965" started-at="2013-11-15T18:04:31Z" data-provider="InputDataProvider" depends-on-methods="module.order.BEIPOOrderTest.processAllCustomerSettlement" finished-at="2013-11-15T18:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{null=null, Environment=BackEnd, ProductType=结构性理财产品, Authority=maker, FundCode=IRC190713A(ZF)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveAggregateOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:module.order.BEIPOOrderTest@246a641d]" name="tearDown" is-config="true" duration-ms="10" started-at="2013-11-15T18:05:03Z" finished-at="2013-11-15T18:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- module.order.BEIPOOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

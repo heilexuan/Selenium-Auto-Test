@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="GBK"?>
+<PropertiesFile>
+	<Field Name="FUND_HOUSE_FH_CODE" Label="产品供应商代码">
+	  	<Type V="java.lang.String" /> 
+  	</Field>
+  	 <Field Name="FUND_HOUSE_FH_NAME" Label="产品供应商名称(中文)">
+	  	<Type V="java.lang.String" /> 
+  	</Field>
+	<Field Name="FUND_HOUSE_FH_SECOND_NAME" Label="产品供应商名称(英文)">
+		<Type V="java.lang.String"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_SHORT_NAME" Label="产品供应商简称">
+		<Type V="java.lang.String"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_ORDER_PREFIX_TXT" Label="汇总订单字首">
+		<Type V="java.lang.String"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_CUTOFF_HR_NO" Label="汇总订单截止时间">
+		<Type V="java.lang.String"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_CUTOFF_MIN_NO" Label="汇总订单截止分钟">
+		<Type V="java.lang.String"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_MANAGE_FEE_FREQ_CODE" Label="生成产品管理费频率">
+		<Type V="org.openqa.selenium.support.ui.Select"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_MANAGE_FEE_CCY_CODE" Label="生成产品管理费币种">
+		<Type V="org.openqa.selenium.support.ui.Select"/>
+	</Field>
+	<Field Name="FUND_HOUSE_GEN_CNTRY_CODE" Label="国别">
+		<Type V="org.openqa.selenium.support.ui.Select"/>
+	</Field>
+	<Field Name="FUND_HOUSE_FH_CORP_CODE" Label="机构代码">
+		<Type V="java.lang.String"/>
+	</Field>
+</PropertiesFile>

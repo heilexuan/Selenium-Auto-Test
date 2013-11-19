@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/ganymed-ssh2-build210.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/selenium-server-standalone-2.35.0.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/testng.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/com_sun_xml.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/poi-3.9-20121203.jar" sourcepath="C:/Users/loki/.m2/repository/org/apache/poi/poi/3.9/poi-3.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/poi-scratchpad-3.9-20121203.jar" sourcepath="C:/Users/loki/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/xml.jar"/>
+	<classpathentry kind="lib" path="E:/uts3/SeleniumTest/Source/WebContent/WEB-INF/lib/xml-apis.jar"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

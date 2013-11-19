@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="GBK"?>
+<menu security="N">
+<menuitem menu_id="UTSRM000M" menu_desc="客户服务主屏幕" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSRM001" menu_desc="搜索客户" menu_level="2" menu_link_prefix="LRLayout" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSRM001" security="N" />
+<menuitem menu_id="UTSRM002" menu_desc="客户信息总览" menu_level="2" menu_link_prefix="LRLayout" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSRM002" security="N" />
+</menuitem>
+<menuitem menu_id="UTSOR000M" menu_desc="境内基金" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSO000AS" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=A&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO000AI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=UT&amp;mode=A&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO000AP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=A&amp;PDGP=UTON&amp;APP=Y" security="N" />
+<!-- Start #30593,Sandy Fu ,2012/06/19 -->
+<!--<menuitem menu_id="UTSD008AI" menu_desc="更改分红方案" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD008" security="N" />-->
+<menuitem menu_id="UTSD008" menu_desc="更改分红方案" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD008" security="N" />
+<!-- End #30593,Sandy Fu ,2012/06/19 -->
+<!-- menuitem menu_id="UTSD008AP" menu_desc="更改分红方案审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSD008&amp;URL_TYPE=MAIN_DIV&amp;OBJ_CODE_MENU_ID=UTSD008AI" security="N" /-->
+<menuitem menu_id="UTSX005A" menu_desc="TA数据导出" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSX005" security="N" />
+<menuitem menu_id="UTSX006A" menu_desc="TA数据导入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSX006" security="N" />
+<menuitem menu_id="UTSX008A" menu_desc="深证通日志阅览器" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSX008" security="N" />
+<menuitem menu_id="UTSS001A" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSS002A" menu_desc="TA结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSCA01A" menu_desc="分红" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTST051A" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSC001A" menu_desc="尾随佣金" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC001&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSC006A" menu_desc="销售服务费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC006&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTST054A" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTST053A" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTXT101" menu_desc="基金发起人" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTXT101" security="N" />
+<menuitem menu_id="UTST104" menu_desc="销售参与人" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST104" security="N" />	
+<menuitem menu_id="UTXT103A" menu_desc="TA接口错误代码" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTXT103" security="N" />
+<!-- menuitem menu_id="UTST053AP" menu_desc="产品审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTON&amp;OBJ_CODE=UTST053&amp;OBJ_CODE_MENU_ID=UTST053A&amp;URL_TYPE=MAIN_FUND" security="N" /-->
+<!-- menuitem menu_id="UTST054AP" menu_desc="产品供应商审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTON&amp;OBJ_CODE=UTST054&amp;OBJ_CODE_MENU_ID=UTST054A&amp;URL_TYPE=MAIN_FUNDHOUSE" security="N" /-->
+<menuitem menu_id="UTSO040AI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040&amp;pfc=UT&amp;pt=A&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO040AS" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO061&amp;pfc=UT&amp;pt=A&amp;mode=A&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO040AP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO061&amp;pfc=UT&amp;pt=A&amp;AUTH=Y&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO048AI" menu_desc="定投计划录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO048&amp;PDGP=UTON" security="N" />
+<menuitem menu_id="UTSO022AS" menu_desc="定投计划摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTON&amp;FEMODE=Y" security="N" />
+<menuitem menu_id="UTSO022AP" menu_desc="定投计划审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTON&amp;FEMODE=Y&amp;AUTH=Y" security="N" />
+<!-- Start #30595,Sandy Fu ,2012/06/20 -->
+<menuitem menu_id="UTSD008_FE" menu_desc="更改分红方案" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD008" security="N" />
+<menuitem menu_id="UTSD008AP" menu_desc="更改分红方案审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSD008&amp;URL_TYPE=MAIN_DIV&amp;AUTH=CD&amp;OBJ_CODE_MENU_ID=UTSD008AP" security="N" />
+<!-- End #30595,Sandy Fu ,2012/06/20 -->
+</menuitem>
+
+<menuitem menu_id="UTSOR001M" menu_desc="境外基金" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSO000BS" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO000BI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO000BP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFF&amp;APP=Y" security="N" />
+<menuitem menu_id="UTSO012BS" menu_desc="汇总订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFF&amp;STATUS=S" security="N" />
+<menuitem menu_id="UTSO012BI" menu_desc="汇总订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO998&amp;pfc=UT&amp;PDGP=UTOFF" security="N" />
+<!--<menuitem menu_id="UTSO012BC" menu_desc="汇总订单确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFF&amp;STATUS=C" security="N" />-->
+<menuitem menu_id="UTSO012BP" menu_desc="汇总订单确认审批 " menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFF&amp;STATUS=A" security="N" />
+<menuitem menu_id="UTSS001B" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSS002B" menu_desc="产品供应商结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=UTOFF" security="N" />
+<!-- <menuitem menu_id="UTSS014B" menu_desc="客户赎回确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS014&amp;PDGP=UTOFF" security="N" /> -->
+<menuitem menu_id="UTST110B" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST110&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTST073B" menu_desc="产品合并" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST073&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTST069B" menu_desc="产品拆分" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST069&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSC002B" menu_desc="强制转换/赎回" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC002&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSCA01B" menu_desc="分红" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTST051B" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSC001B" menu_desc="尾随佣金" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC001&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSC007B" menu_desc="产品管理费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC007&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTST054B" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTST053B" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=UTOFF" security="N" />
+<!--<menuitem menu_id="UTSS012B" menu_desc="每日订单汇率" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS012&amp;PDGP=UTOFF" security="N" />-->
+<!-- menuitem menu_id="UTST053BP" menu_desc="产品审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFF&amp;OBJ_CODE=UTST053&amp;OBJ_CODE_MENU_ID=UTST053B&amp;URL_TYPE=MAIN_FUND" security="N" / -->
+<!-- menuitem menu_id="UTST054BP" menu_desc="产品供应商审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFF&amp;OBJ_CODE=UTST054&amp;OBJ_CODE_MENU_ID=UTST054B&amp;URL_TYPE=MAIN_FUNDHOUSE" security="N" /-->
+<!-- menuitem menu_id="UTST110BP" menu_desc="认购监控审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFF&amp;OBJ_CODE=UTST110&amp;OBJ_CODE_MENU_ID=UTST110B&amp;URL_TYPE=MAIN_STATUS" security="N" / -->
+<menuitem menu_id="UTSO040BI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040&amp;pfc=UT&amp;pt=A&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO040BS" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO061&amp;pfc=UT&amp;pt=A&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO040BP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO061&amp;pfc=UT&amp;pt=A&amp;AUTH=Y&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO048BI" menu_desc="定投计划录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO048&amp;PDGP=UTOFF" security="N" />
+<menuitem menu_id="UTSO022BS" menu_desc="定投计划摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTOFF&amp;FEMODE=Y" security="N" />
+<menuitem menu_id="UTSO022BP" menu_desc="定投计划审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTOFF&amp;FEMODE=Y&amp;AUTH=Y" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSOR005M" menu_desc="投资组合" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSO000FS" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO000FI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=UT&amp;mode=N&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO000FP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=PP&amp;APP=Y" security="N" />
+<menuitem menu_id="UTSO012FS" menu_desc="汇总订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=PP&amp;STATUS=S" security="N" />
+<menuitem menu_id="UTSO012FI" menu_desc="汇总订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO998&amp;pfc=UT&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO012FP" menu_desc="汇总订单确认审批 " menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=PP&amp;STATUS=A" security="N" />
+<menuitem menu_id="UTSS001F" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSS002F" menu_desc="产品供应商结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST110F" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST110&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST073F" menu_desc="产品合并" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST073&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST069F" menu_desc="产品拆分" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST069&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSC002F" menu_desc="强制转换/赎回" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC002&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSCA01F" menu_desc="分红" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST051F" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSC001F" menu_desc="尾随佣金" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC001&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSC007F" menu_desc="产品管理费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC007&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST054F" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTST053F" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO040FI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040_PP&amp;pfc=UT&amp;pt=P&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO040FS" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO062&amp;pfc=UT&amp;pt=P&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO040FP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO062&amp;pfc=UT&amp;pt=P&amp;AUTH=Y&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO048FI" menu_desc="定投计划录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO048&amp;PDGP=PP" security="N" />
+<menuitem menu_id="UTSO022FS" menu_desc="定投计划摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=PP&amp;FEMODE=Y" security="N" />
+<menuitem menu_id="UTSO022FP" menu_desc="定投计划审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=PP&amp;FEMODE=Y&amp;AUTH=Y" security="N" />
+</menuitem>
+
+<!--<menuitem menu_id="UTSOR002M" menu_desc="信托" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSO000CS" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO000CI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO000CP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=UT&amp;mode=N&amp;PDGP=UTOFFB&amp;APP=Y" security="N" />
+<menuitem menu_id="UTSO012CS" menu_desc="汇总订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFFB&amp;STATUS=S" security="N" />
+<menuitem menu_id="UTSO012CI" menu_desc="汇总订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO998&amp;pfc=UT&amp;PDGP=UTOFFB" security="N" />-->
+<!--<menuitem menu_id="UTSO012CC" menu_desc="汇总订单确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFFB&amp;STATUS=C" security="N" />-->
+<!--<menuitem menu_id="UTSO012CP" menu_desc="汇总订单确认审批 " menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=UT&amp;PDGP=UTOFFB&amp;STATUS=A" security="N" />
+<menuitem menu_id="UTSS001C" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSS002C" menu_desc="产品供应商结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSS014C" menu_desc="客户赎回确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS014&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST110C" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST110&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST073C" menu_desc="产品合并" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST073&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST069C" menu_desc="产品拆分" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST069&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSC002C" menu_desc="强制转换/赎回" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC002&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSCA01C" menu_desc="分红" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST051C" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSC001C" menu_desc="尾随佣金" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC001&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST054C" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTST053C" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=UTOFFB" security="N" />-->
+<!-- menuitem menu_id="UTSS012C" menu_desc="每日订单汇率" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS012&amp;PDGP=UTOFFB" security="N" / -->
+<!-- menuitem menu_id="UTST053CP" menu_desc="产品审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFFB&amp;OBJ_CODE=UTST053&amp;OBJ_CODE_MENU_ID=UTST053C&amp;URL_TYPE=MAIN_FUND" security="N" / -->
+<!-- menuitem menu_id="UTST054CP" menu_desc="产品供应商审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFFB&amp;OBJ_CODE=UTST054&amp;OBJ_CODE_MENU_ID=UTST054C&amp;URL_TYPE=MAIN_FUNDHOUSE" security="N" / -->
+<!-- menuitem menu_id="UTST110CP" menu_desc="认购监控审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=UTOFFB&amp;OBJ_CODE=UTST110&amp;OBJ_CODE_MENU_ID=UTST110C&amp;URL_TYPE=MAIN_STATUS" security="N" / -->
+<!--<menuitem menu_id="UTSO040CI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040_PP&amp;pfc=UT&amp;pt=P&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO040CS" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO062&amp;pfc=UT&amp;pt=P&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO040CP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO062&amp;pfc=UT&amp;pt=P&amp;AUTH=Y&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO048CI" menu_desc="定投计划录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO048&amp;PDGP=UTOFFB" security="N" />
+<menuitem menu_id="UTSO022CS" menu_desc="定投计划摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTOFFB&amp;FEMODE=Y" security="N" />
+<menuitem menu_id="UTSO022CP" menu_desc="定投计划审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022&amp;PDGP=UTOFFB&amp;FEMODE=Y&amp;AUTH=Y" security="N" />
+</menuitem>-->
+<!--<menuitem menu_id="UTSOR004M" menu_desc="结构性存款" menu_level="1" menu_link="#" security="N"> -->
+<menuitem menu_id="UTSOR004M" menu_desc="结构性理财产品" menu_level="1" menu_link="#" security="N"> 
+<menuitem menu_id="UTSO000ES" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=SN&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO000EI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=SN&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO000EP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=SN&amp;PDGP=SD&amp;APP=Y" security="N" />
+<menuitem menu_id="UTSO012ES" menu_desc="汇总订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=SN&amp;PDGP=SD&amp;STATUS=S" security="N" />
+<menuitem menu_id="UTSO012EI" menu_desc="汇总订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO998&amp;pfc=SN&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO012EP" menu_desc="汇总订单确认审批 " menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=SN&amp;PDGP=SD&amp;STATUS=A" security="N" />
+<menuitem menu_id="UTSO055" menu_desc="期权费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO055" security="N" />
+<menuitem menu_id="UTSS001E" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSS002E" menu_desc="产品供应商结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=SD" security="N" />
+<!-- <menuitem menu_id="UTSS014E" menu_desc="客户赎回确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS014&amp;PDGP=SD" security="N" /> -->
+<menuitem menu_id="UTST110E" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST110&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSC002E" menu_desc="强制转换/赎回" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC002&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSCA01E" menu_desc="票息支付" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTST051E" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTST054E" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTST053E" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO040EI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040_SN&amp;pfc=SN&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO040ES" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO063&amp;pfc=SN&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO040EP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO063&amp;pfc=SN&amp;AUTH=Y&amp;PDGP=SD" security="N" />
+<menuitem menu_id="UTSO040EC" menu_desc="前端客户订单确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO063&amp;pfc=SN&amp;PDGP=SD" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSOR003M" menu_desc="结构性票据" menu_level="1" menu_link="#" security="N">
+<menuitem menu_id="UTSO000DS" menu_desc="客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=SN&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSO000DI" menu_desc="客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO999A&amp;pfc=SN&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSO000DP" menu_desc="客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO000A&amp;pfc=SN&amp;PDGP=SN&amp;APP=Y" security="N" />
+<menuitem menu_id="UTSO012DS" menu_desc="汇总订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=SN&amp;PDGP=SN&amp;STATUS=S" security="N" />
+<menuitem menu_id="UTSO012DI" menu_desc="汇总订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO998&amp;pfc=SN&amp;PDGP=SN" security="N" />
+<!--<menuitem menu_id="UTSO012DC" menu_desc="汇总订单确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=SN&amp;PDGP=SN&amp;STATUS=C" security="N" />-->
+<menuitem menu_id="UTSO012DP" menu_desc="汇总订单确认审批 " menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO012&amp;pfc=SN&amp;PDGP=SN&amp;STATUS=A" security="N" />
+<!--Start #31282,Kom Xi,2012/10/08-->
+<menuitem menu_id="UTST141D" menu_desc="每日订单参考价格" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST141&amp;PDGP=SN" security="N" />
+<!--End #31282,Kom Xi,2012/10/08-->
+<!--Start #31313,Sandy Fu ,2012/10/10-->
+<menuitem menu_id="UTST152D" menu_desc="每日订单汇缓存率" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST152&amp;PDGP=SN" security="N" />
+<!--End #31313,Sandy Fu ,2012/10/10-->
+<menuitem menu_id="UTSS001D" menu_desc="客户结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS001&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSS002D" menu_desc="产品供应商结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS002&amp;PDGP=SN" security="N" />
+<!-- <menuitem menu_id="UTSS014D" menu_desc="客户赎回确认" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS014&amp;PDGP=SN" security="N" /> -->
+<menuitem menu_id="UTST110D" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST110&amp;PDGP=SN" security="N" />
+<!--menuitem menu_id="UTST073D" menu_desc="产品合并" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST073" security="N" /-->
+<menuitem menu_id="UTSC002D" menu_desc="强制转换/赎回" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC002&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSCA01D" menu_desc="票息支付" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSCA01&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTST051D" menu_desc="收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST051&amp;PDGP=SN" security="N" />
+<!--Start #31649,Kom Xi,2012/11/27-->
+<menuitem menu_id="UTSC001D" menu_desc="尾随佣金" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC001&amp;PDGP=SN" security="N" />
+<!--End #31649,Kom Xi,2012/11/27-->
+<menuitem menu_id="UTSC007D" menu_desc="产品管理费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSC007&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTST054D" menu_desc="产品供应商" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST054&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTST053D" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST053&amp;PDGP=SN" security="N" />
+<!--<menuitem menu_id="UTSS012D" menu_desc="每日订单汇率" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS012&amp;PDGP=SN" security="N" />-->
+<!-- menuitem menu_id="UTST141D" menu_desc="每日订单参考价格" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST141&amp;PDGP=SN" security="N" / -->
+<!-- menuitem menu_id="UTST053DP" menu_desc="产品审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=SN&amp;OBJ_CODE=UTST053&amp;OBJ_CODE_MENU_ID=UTST053D&amp;URL_TYPE=MAIN_FUND" security="N" / -->
+<!-- menuitem menu_id="UTST054DP" menu_desc="产品供应商审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=SN&amp;OBJ_CODE=UTST054&amp;OBJ_CODE_MENU_ID=UTST054D&amp;URL_TYPE=MAIN_FUNDHOUSE" security="N" / -->
+<!-- menuitem menu_id="UTST110DP" menu_desc="认购监控审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;PDGP=SN&amp;OBJ_CODE=UTST110&amp;OBJ_CODE_MENU_ID=UTST110D&amp;URL_TYPE=MAIN_STATUS" security="N" / -->
+<menuitem menu_id="UTSO040DI" menu_desc="前端客户订单录入" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO040_SN&amp;pfc=SN&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSO040DS" menu_desc="前端客户订单摘要" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO063&amp;pfc=SN&amp;PDGP=SN" security="N" />
+<menuitem menu_id="UTSO040DP" menu_desc="前端客户订单审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO063&amp;pfc=SN&amp;AUTH=Y&amp;PDGP=SN" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSRP000M" menu_desc="定投" menu_level="1" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTSO022I" menu_desc="定投计划" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO022" security="N" />
+<!-- menuitem menu_id="UTSO022P" menu_desc="定投计划审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;URL_TYPE=MAIN_SAVPLAN&amp;OBJ_CODE=UTSO022&amp;OBJ_CODE_MENU_ID=UTSO022P" security="N" / -->
+<menuitem menu_id="UTSS003" menu_desc="定投计划结算" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSS003" security="N" />
+<menuitem menu_id="UTSO021" menu_desc="定投模板" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO021" security="N" />
+<menuitem menu_id="UTST016" menu_desc="定投模板种类" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST016" security="N" />
+<menuitem menu_id="UTST101" menu_desc="扣款日" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST101" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSBD000M" menu_desc="客户信息" menu_level="1" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTSD006" menu_desc="修改投资账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD006" security="N" />
+<menuitem menu_id="UTSD006P" menu_desc="新建/修改投资帐户审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD006_APV&amp;AUTH=Y" security="N" />
+<menuitem menu_id="UTSD001" menu_desc="客户账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD001" security="N" />
+<menuitem menu_id="UTSD001P" menu_desc="客户账户审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;URL_TYPE=MAIN_CUSTOMER&amp;OBJ_CODE=UTSD001&amp;OBJ_CODE_MENU_ID=UTSD001P" security="N" />
+<menuitem menu_id="UTSD007" menu_desc="修改客户证件类型及证件号码" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD007" security="N" />
+<!--<menuitem menu_id="UTSD007P" menu_desc="修改客户证件类型及证件号码审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;URL_TYPE=MAIN_CUST_CHANGE_ID&amp;OBJ_CODE=UTSD007" security="N" />-->
+<menuitem menu_id="UTSD002" menu_desc="投资账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD002" security="N" />
+<menuitem menu_id="UTSD002P" menu_desc="投资账户审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;URL_TYPE=MAIN_ACCOUNT&amp;OBJ_CODE=UTSD002" security="N" />
+<menuitem menu_id="UTSO030" menu_desc="冻结记录" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSO030" security="N" />
+<!-- menuitem menu_id="UTSO030P" menu_desc="冻结记录审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSO030&amp;URL_TYPE=MAIN_LIEN" security="N" / -->
+<!--menuitem menu_id="UTSD006TA" menu_desc="修改TA帐户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSD006_TA&amp;TA=Y" security="N" /-->
+<menuitem menu_id="UTSRM003P" menu_desc="财务需求分析记录审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;URL_TYPE=MAIN_FNA&amp;OBJ_CODE=UTSRM003" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSEQ000M" menu_desc="查询" menu_level="1" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTSE001" menu_desc="客户账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE001&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE007" menu_desc="投资账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE007&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE008" menu_desc="定投计划" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE008&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE002" menu_desc="产品头寸" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE002&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE053" menu_desc="产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE053&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE056" menu_desc="产品价格" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST056&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTXT100" menu_desc="TA公告" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTXT100" security="N" />
+<menuitem menu_id="UTSE057" menu_desc="认购监控" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE057&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE058" menu_desc="假日" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST058&amp;enquiry=Y" security="N" />
+<menuitem menu_id="UTSE059" menu_desc="产品库" menu_level="2" menu_link_prefix="popup" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSE059&amp;enquiry=Y" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSMM001M" menu_desc="参数" menu_level="1" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTST109" menu_desc="工作日志" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST109" security="N" />
+<menuitem menu_id="UTST138" menu_desc="托管人" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST138" security="N" />
+<menuitem menu_id="UTST066" menu_desc="折扣" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST066" security="N" />
+<menuitem menu_id="UTST070" menu_desc="促销产品" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST070" security="N" />
+<menuitem menu_id="UTST071" menu_desc="促销计划" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST071" security="N" />
+<menuitem menu_id="UTST100" menu_desc="客户状态" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST100&amp;ST=C" security="N" />
+<menuitem menu_id="UTST142" menu_desc="投资帐户状态" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST100&amp;ST=A" security="N" />
+<menuitem menu_id="UTST145" menu_desc="用户订单审批组" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST145" security="N" />
+<menuitem menu_id="UTST060" menu_desc="客户状态变更原因" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST060" security="N" />
+<menuitem menu_id="UTST134" menu_desc="客户风险类别" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST134" security="N" />
+<menuitem menu_id="UTST058" menu_desc="假日" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST058" security="N" />
+<menuitem menu_id="UTST056" menu_desc="产品价格" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST056" security="N" />
+<menuitem menu_id="UTST084" menu_desc="产品组" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST084" security="N" />
+<menuitem menu_id="UTST140" menu_desc="产品组合成份" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST140" security="N" />
+<menuitem menu_id="UTST052" menu_desc="币种" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST052" security="N" />
+<menuitem menu_id="UTST067" menu_desc="币种兑换方法" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST067" security="N" />
+<menuitem menu_id="UTST089" menu_desc="币种汇率" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST089" security="N" />
+<menuitem menu_id="UTSMM002M" menu_desc="总账 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+	<menuitem menu_id="UTST147" menu_desc="总账分类账号" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST147" security="N" />
+	<menuitem menu_id="UTSG002" menu_desc="总账成本中心" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSG002" security="N" />
+	<menuitem menu_id="UTST149" menu_desc="总账客户等级" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST149" security="N" />
+	<menuitem menu_id="UTSG001" menu_desc="总账模板" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSG001" security="N" />
+	<!--<menuitem menu_id="UTST080" menu_desc="总账账户" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST080" security="N" />-->
+	<menuitem menu_id="UTST080" menu_desc="总账账号代码" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST080" security="N" />
+	<!-- <menuitem menu_id="UTST148" menu_desc="总账货品代码" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST148" security="N" /> -->
+	<menuitem menu_id="UTST148" menu_desc="总账产品代码" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST148" security="N" />
+	<menuitem menu_id="UTST150" menu_desc="总账子账代码" menu_level="3" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST150" security="N" />
+</menuitem>
+<menuitem menu_id="UTST146" menu_desc="推荐名单" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST146" security="N" />
+<menuitem menu_id="UTST143" menu_desc="挂钩产品类" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST143" security="N" />
+</menuitem>
+<menuitem menu_id="UTSCS000M" menu_desc="代码" menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTST002" menu_desc="国家" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST002" security="N" />
+<menuitem menu_id="UTST086" menu_desc="地区" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST086" security="N" />
+<menuitem menu_id="UTXT102" menu_desc="城市" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTXT102" security="N" />
+<menuitem menu_id="UTST081" menu_desc="省市" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST081" security="N" />
+<menuitem menu_id="UTST099" menu_desc="客户等级" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST099" security="N" />
+<menuitem menu_id="UTST003" menu_desc="客户类别" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST003" security="N" />
+<menuitem menu_id="UTST083" menu_desc="客户渠道" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST083" security="N" />
+<menuitem menu_id="UTST012" menu_desc="称谓" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST012" security="N" />
+<menuitem menu_id="UTST011" menu_desc="国籍" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST011" security="N" />
+<menuitem menu_id="UTST098" menu_desc="学历" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST098" security="N" />
+<menuitem menu_id="UTST008" menu_desc="职业" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST008" security="N" />
+<menuitem menu_id="UTST017" menu_desc="行业" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST017" security="N" />
+<menuitem menu_id="UTST106" menu_desc="冻结原因" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST106" security="N" />
+
+<!--<menuitem menu_id="UTST014" menu_desc="豁免收费" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST014" security="N" />-->
+<menuitem menu_id="UTST005" menu_desc="产品地区" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST005" security="N" />
+<menuitem menu_id="UTST010" menu_desc="产品风险类别" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST010" security="N" />
+<menuitem menu_id="UTST006" menu_desc="产品行业" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST006" security="N" />
+<!-- <menuitem menu_id="UTST091" menu_desc="产品投资组件" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST091" security="N" /> -->
+<menuitem menu_id="UTST004" menu_desc="产品种类" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST004" security="N" />
+<menuitem menu_id="UTST119" menu_desc="产品评级" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST119" security="N" />
+<menuitem menu_id="UTST135" menu_desc="高风险国家" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST135" security="N" />
+<menuitem menu_id="UTST144" menu_desc="文件" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST144" security="N" />
+<menuitem menu_id="UTST090" menu_desc="服务类型" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST090" security="N" />
+<!--<menuitem menu_id="UTST143" menu_desc="挂钩产品类" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST143" security="N" />-->
+
+<menuitem menu_id="UTST001" menu_desc="银行" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST001" security="N" />
+<menuitem menu_id="UTST125" menu_desc="销售人员" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST125" security="N" />	
+<!--<menuitem menu_id="UTST010" menu_desc="风险类别" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST010" security="N" />  -->
+<!--menuitem menu_id="UTSG002" menu_desc="总账成本中心" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSG002" security="N" /-->
+</menuitem>
+
+<menuitem menu_id="UTSCS001M" menu_desc="公司架构" menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTST063" menu_desc="架构层1-公司" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST063" security="N" />
+<menuitem menu_id="UTST015" menu_desc="架构层2-分行" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST015" security="N" />
+<menuitem menu_id="UTSU001" menu_desc="架构层3-支行" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSU001" security="N" />
+<menuitem menu_id="UTSU002" menu_desc="架构层4-客户经理" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSU002" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSCS002M" menu_desc="系统" menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTSB005" menu_desc="存档选项" menu_level="2" menu_link_prefix="housekeeping" menu_link="HousekeepingMain.jsp" security="N" />
+<menuitem menu_id="UTSB002" menu_desc="批作业阅览器" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSB002" security="N" />
+<menuitem menu_id="UTST097" menu_desc="系统功能设置" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST097" security="N" />
+<menuitem menu_id="UTSX001" menu_desc="系统接口" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSX001" security="N" />
+<menuitem menu_id="UTSX001A" menu_desc="系统接口文件上传" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSX001A" security="N" />
+<menuitem menu_id="UTSA001" menu_desc="一般维护审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;GENERAL=Y" security="N" />
+<menuitem menu_id="UTSS002P" menu_desc="产品供应商结算审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSS002&amp;URL_TYPE=MAIN_FHSETT" security="N" />
+<menuitem menu_id="UTSS001P" menu_desc="客户结算审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSS001&amp;URL_TYPE=MAIN_CLNTSETT" security="N" />
+<menuitem menu_id="UTSS003P" menu_desc="定投计划结算审批" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSA001&amp;OBJ_CODE=UTSS003&amp;URL_TYPE=MAIN_RSPSETT" security="N" />
+<menuitem menu_id="UTST151" menu_desc="QD配额" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTST151" security="N" />
+<menuitem menu_id="UTEP001A" menu_desc="维护导出" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTEP001&amp;EXPT=M" security="N" />
+<menuitem menu_id="UTEP001B" menu_desc="操作导出" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTEP001&amp;EXPT=O" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSLA000M" menu_desc="客户通知书" menu_level="1" menu_link_prefix="" menu_link="#" security="N">
+<menuitem menu_id="UTSR070" menu_desc="电子月结单" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR070&amp;SYS_RPT_ID=UTSR070&amp;SYS_FORMAT_ID=1" security="N" />
+<menuitem menu_id="UTXR351A" menu_desc="客户投资组合" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR351A" security="N" />
+<menuitem menu_id="UTSR071" menu_desc="客户订单确认通知书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR071&amp;SYS_RPT_ID=UTSR071&amp;SYS_FORMAT_ID=1" security="N" />
+<menuitem menu_id="UTSR073" menu_desc="投资账户开户确认书" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTSR073" security="N" />
+<!-- Start #31290,Sandy Fu ,2013/01/29 -->
+<!--<menuitem menu_id="UTSR074" menu_desc="投资帐户信息更改确认书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR074&amp;SYS_RPT_ID=UTSR074&amp;SYS_FORMAT_ID=1" security="N" />-->
+<menuitem menu_id="UTSR074" menu_desc="更改投资结算帐户确认书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR074&amp;SYS_RPT_ID=UTSR074&amp;SYS_FORMAT_ID=1" security="N" />
+<menuitem menu_id="UTSR075" menu_desc="更改投资帐户信息确认书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR075&amp;SYS_RPT_ID=UTSR075&amp;SYS_FORMAT_ID=1" security="N" />
+<!-- End #31290,Sandy Fu ,2013/01/29 -->
+<!--<menuitem menu_id="UTSR050" menu_desc="客户订单处理不成功通知书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR050&amp;SYS_RPT_ID=UTSR050&amp;SYS_FORMAT_ID=1" security="N" />-->
+<menuitem menu_id="UTSR559" menu_desc="产品供应商订单日指示表" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR559" security="N" />
+<menuitem menu_id="UTSR051" menu_desc="定期定额成功设置通知书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR051&amp;SYS_RPT_ID=UTSR051&amp;SYS_FORMAT_ID=1" security="N" />
+<menuitem menu_id="UTSR053" menu_desc="定期定额扣款失败通知书" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR053&amp;SYS_RPT_ID=UTSR053&amp;SYS_FORMAT_ID=1" security="N" />
+<menuitem menu_id="UTSR052" menu_desc="定投计划终止通知" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTSR052&amp;SYS_RPT_ID=UTSR052&amp;SYS_FORMAT_ID=1" security="N" />
+</menuitem>
+
+<menuitem menu_id="UTSRT000M" menu_desc="报表" menu_level="1" menu_link_prefix="" menu_link="#" security="N">		
+		<menuitem menu_id="UTSRT001M" menu_desc="操作报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR511" menu_desc="工作日志报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR511" security="N" />
+		<!--<menuitem menu_id="UTXR328C" menu_desc="产品管理费报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328C" security="N" />-->
+		<menuitem menu_id="UTXR303" menu_desc="产品价格报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR303" security="N" />		
+		<!--Start TA25, Jenny, 2010/09/02
+		<menuitem menu_id="UTXR314" menu_desc="外汇汇总日报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR314" security="N" />
+		End TA25, Jenny, 2010/09/02 -->
+		<menuitem menu_id="UTXR502" menu_desc="客户订单清单报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR502" security="N" />
+		<!-- Start #30929,Chris Liu ,2012/08/16 -->
+		<menuitem menu_id="UTXR568" menu_desc="客户损益报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR568" security="N" />
+		<!-- End  #30929,Chris Liu ,2012/08/16 -->
+		<menuitem menu_id="UTXR312" menu_desc="汇总订单列表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR312" security="N" />
+		<menuitem menu_id="UTXR308" menu_desc="回溯交易报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR308" security="N" />		
+		<menuitem menu_id="UTXR326" menu_desc="撤销交易报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR326" security="N" />
+		<menuitem menu_id="UTXR329" menu_desc="待确认客户订单报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR329" security="N" />
+		<menuitem menu_id="UTXR031B" menu_desc="已确认客户订单报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR031B" security="N" />
+		<menuitem menu_id="UTXR501" menu_desc="客户风险等级评估预警报告" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR501" security="N" />		
+		<menuitem menu_id="UTXR302" menu_desc="产品合并报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR302" security="N" />
+		<menuitem menu_id="UTXR305" menu_desc="产品拆分报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR305" security="N" />
+		<menuitem menu_id="UTXR318" menu_desc="红利分配报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR318" security="N" />
+		<menuitem menu_id="UTXR319" menu_desc="红利支付报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR319" security="N" />
+		<!-- <menuitem menu_id="UTXR509" menu_desc="强制转换/赎回导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR509" security="N" />	 -->
+		<!-- Start SN-T23,Sandy Fu ,2012/10/23 -->
+		<menuitem menu_id="UTXR509" menu_desc="强制转换/赎回导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR509" security="N" />
+		<!-- End SN-T23,Sandy Fu ,2012/10/23 -->
+		<menuitem menu_id="UTXR408" menu_desc="强制转换/赎回报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR408" security="N" />
+		<!-- <!menuitem menu_id="UTXR328" menu_desc="尾随佣金报表0000" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328" security="N" />  -->
+		<!--<menuitem menu_id="UTXR328A" menu_desc="尾随佣金报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328A" security="N" />-->
+		<!--<menuitem menu_id="UTSR389" menu_desc="冻结产品汇总报表" menu_level="3" menu_link_prefix="report" menu_link="RptOprUTSR389.jsp" security="N" />-->
+		<menuitem menu_id="UTXR320" menu_desc="冻结记录报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR320" security="N" />		
+		<menuitem menu_id="UTXR513" menu_desc="MTN Book Building Report" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR513" security="N" />
+		<menuitem menu_id="UTXR560" menu_desc="日终流水账簿" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR560" security="N" />
+
+	  <menuitem menu_id="UTXR328C" menu_desc="产品管理费报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328C" security="N" />
+	  		<menuitem menu_id="UTXR328B" menu_desc="销售服务费报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328B" security="N" />
+		<menuitem menu_id="UTXR328A" menu_desc="尾随佣金报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR328A" security="N" />
+		
+	    <menuitem menu_id="UTXR334" menu_desc="总账明细报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR334" security="N" />
+	    <menuitem menu_id="UTSR072" menu_desc="每日汇总订单" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTSR072" security="N" />
+	    <menuitem menu_id="UTXR532" menu_desc="日终RSP修改自动撤消报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR532" security="N" />
+	
+	</menuitem>
+	<menuitem menu_id="UTSRT002M" menu_desc="结算报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR310" menu_desc="客户订单结算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR310" security="N" />
+		<menuitem menu_id="UTXR311" menu_desc="客户分红结算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR311" security="N" />
+		<menuitem menu_id="UTXR315" menu_desc="客户定投扣款报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR315" security="N" />
+		<menuitem menu_id="UTXR322" menu_desc="产品供应商结算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR322" security="N" />		
+		<menuitem menu_id="UTSR381A" menu_desc="产品供应商结算指示表 - CNAPS" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTSR381A" security="N" />
+		<menuitem menu_id="UTSR381" menu_desc="产品供应商结算指示表 - TT" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTSR381" security="N" />
+		<menuitem menu_id="UTXR330" menu_desc="销售代销费/利息结算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR330" security="N" />
+	</menuitem>
+	<menuitem menu_id="UTSRT003M" menu_desc="MIS报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">		
+		<menuitem menu_id="UTXR300" menu_desc="客户持有报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR300" security="N" />		
+		<menuitem menu_id="UTXR355" menu_desc="客户定投明细报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR355" security="N" />		
+		<menuitem menu_id="UTXR327" menu_desc="客户订单销售报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR327" security="N" />
+		<!--<menuitem menu_id="UTXR301" menu_desc="产品持有明细报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR301" security="N" />-->
+		<menuitem menu_id="UTXR512" menu_desc="产品持有汇总报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR512" security="N" />
+		<!--<menuitem menu_id="UTXR090" menu_desc="合格境內机构投资者境外证券投资外汇旬报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR090" security="N" />-->				
+	</menuitem>
+	<menuitem menu_id="UTSRT004M" menu_desc="异常报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR503" menu_desc="TA导入异常报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR503" security="N" />
+		<menuitem menu_id="UTXR505" menu_desc="TA导出异常报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR505" security="N" />	
+		<menuitem menu_id="UTXR559" menu_desc="结算账户异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR559" security="N" />
+		<menuitem menu_id="UTXR538" menu_desc="客户定投计划异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR538" security="N" />
+		<!--Start #31566,Kom Xi,2012/11/23-->
+		<menuitem menu_id="UTXR570" menu_desc="客户定投计划结算异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR570" security="N" />
+		<!--End #31566,Kom Xi,2012/11/23-->
+		<menuitem menu_id="UTXR317" menu_desc="客户订单折扣异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR317" security="N" />
+		<!--<menuitem menu_id="UTSR417" menu_desc="产品价格公差异常报表" menu_level="3" menu_link_prefix="report" menu_link="RptOprUTSR417.jsp" security="N" />-->	
+		<!--<menuitem menu_id="UTXR557" menu_desc="产品价格导入异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR557" security="N" />		-->
+		<menuitem menu_id="UTXR417" menu_desc="产品价格公差异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR417" security="N" />	
+		<!--<menuitem menu_id="UTXR558" menu_desc="汇率导入异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR558" security="N" />-->
+		<!--<menuitem menu_id="UTXR313" menu_desc="汇率公差异常报表" menu_level="2" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR313" security="N" />-->
+		<menuitem menu_id="UTXR324" menu_desc="汇总订单确认公差异常报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR324" security="N" />		
+		<menuitem menu_id="UTXR363" menu_desc="产品业务公差报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR363" security="N" />
+		<menuitem menu_id="UTXR535" menu_desc="托管银行调节异常报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR535" security="N" />	
+	</menuitem>
+	<menuitem menu_id="UTSRT005M" menu_desc="监控报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR306" menu_desc="审计索引报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR306" security="N" />
+		<menuitem menu_id="UTXR361" menu_desc="结构性产品配额使用监控报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR361" security="N" />		
+		<menuitem menu_id="UTXR561" menu_desc="QD配额监控报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR561" security="N" />		
+	</menuitem>
+	<menuitem menu_id="UTSRT006M" menu_desc="系统接口导入报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR527" menu_desc="客户电子地址导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR527" security="N" />
+	  <menuitem menu_id="UTXR525" menu_desc="客户地址导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR525" security="N" />
+		<menuitem menu_id="UTXR520" menu_desc="每日参数列表导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR520" security="N" />
+		<menuitem menu_id="UTXR521" menu_desc="SIBS每日对账报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR521" security="N" />
+		<menuitem menu_id="UTXR522" menu_desc="每日SIBS扣帐/入账批处理报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR522" security="N" />
+		<menuitem menu_id="UTXR523" menu_desc="每日客户信息导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR523" security="N" />
+	  <menuitem menu_id="UTXR524" menu_desc="每日汇率批处理导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR524" security="N" />
+	  <menuitem menu_id="UTXR526" menu_desc="Bancassurance 批处理报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR526" security="N" />
+	  <menuitem menu_id="UTXR528" menu_desc="每日结算存款导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR528" security="N" />
+	  <menuitem menu_id="UTXR529" menu_desc="DCR 批处理报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR529" security="N" />
+	  <menuitem menu_id="UTXR530" menu_desc="SOA Tag/Un-tag Online Interface Exception Report" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR530" security="N" />
+	  <menuitem menu_id="UTXR531" menu_desc="SOA Hold/Un-hold Online Interface Exception Report" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR531" security="N" />
+    <menuitem menu_id="UTXR557" menu_desc="产品价格导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR557" security="N" />
+      <!-- Start #31284, Caton Liu, 2012/10/15 -->
+      <menuitem menu_id="UTXR533" menu_desc="每日订单参考汇率批处理导入报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR533" security="N" />
+      <!-- End #31284, Caton Liu, 2012/10/15 -->
+	</menuitem>
+	<menuitem menu_id="UTSRT007M" menu_desc="TA操作报表 > " menu_level="2" menu_link_prefix="" menu_link="#" security="N">
+		<menuitem menu_id="UTXR504" menu_desc="TA导入操作报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR504" security="N" />
+		<menuitem menu_id="UTXR508" menu_desc="TA导入详细报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR508" security="N" />
+		<menuitem menu_id="UTXR506" menu_desc="TA导出操作报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR506" security="N" />
+		<menuitem menu_id="UTXR507" menu_desc="TA导出详细报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR507" security="N" />
+		<menuitem menu_id="UTXR160" menu_desc="TA赎回明细报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR160" security="N" />
+		<!-- Start #31203, Sandy Fu, 2012/09/21 -->
+		<!--<menuitem menu_id="UTXR562" menu_desc="资金清算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR562" security="N" />-->
+		<menuitem menu_id="UTXR562" menu_desc="25文件TA资金清算报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR562" security="N" />
+		<!-- End #31203, Sandy Fu, 2012/09/21 -->
+		<!-- Start ##30920 Loki Wang 2012/08/13 -->
+		<menuitem menu_id="UTXR567" menu_desc="国内基金代销费报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR567&amp;FUNCTION_ID=UTXR567" security="N" />
+		<!-- End ##30920 Loki Wang 2012/08/13 -->
+		<!-- Start #30780,Sandy Fu ,2012/07/13 -->
+		<menuitem menu_id="UTXR564" menu_desc="国内基金代销确认统计报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR564" security="N" />
+		<!-- End #30780,Sandy Fu ,2012/07/13 -->
+		<!-- Start #30776, Caton Liu, 2012/07/17 -->
+		<menuitem menu_id="UTXR563" menu_desc="国内基金代销清算资金确认统计报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR563" security="N" />
+		<!-- End #30776, Caton Liu, 2012/07/17 -->
+		<!-- Start #30848, Caton Liu, 2012/07/27 -->
+		<menuitem menu_id="UTXR566" menu_desc="国内基金开户/交易不成功报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR566" security="N" />
+		<!-- End #30848, Caton Liu, 2012/07/27 -->
+		<!-- Start #30849,Sandy Fu ,2012/07/30 -->
+		<menuitem menu_id="UTXR565" menu_desc="国内基金删单警告报表" menu_level="3" menu_link_prefix="report_cr" menu_link="CRReport.jsp?FuncID=UTXR565" security="N" />
+		<!-- End #30849,Sandy Fu ,2012/07/30 -->
+	</menuitem>
+	<!--Start Tom Zheng,log 28595,2011/12/13-->	
+	<menuitem menu_id="UTSRT008M" menu_desc="操作导出" menu_level="2" menu_link_prefix="common" menu_link="Dispatcher.jsp?FUNCTION_ID=UTEP001&amp;EXPT=O" security="N" />
+	<!--End Tom Zheng,log 28595,2011/12/13-->	
+	</menuitem>
+</menu>

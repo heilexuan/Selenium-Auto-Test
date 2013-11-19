@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <parameter name="straEnvironment" value="BackEnd"/> 
+  <parameter name="straAuthority" value="maker"/> 
+  <test name="Test">
+    <classes>
+      <class name="module.login.UserLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
